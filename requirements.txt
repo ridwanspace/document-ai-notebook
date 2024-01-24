@@ -1,0 +1,6 @@
+python-dotenv
+google-cloud-aiplatform
+google-auth
+google-cloud-documentai
+pandas
+pillow
