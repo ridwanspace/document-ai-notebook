@@ -44,6 +44,19 @@ Refer to the [Full processor and detail list](https://cloud.google.com/document-
 * Downloaded Service Account in JSON
 * Python dependencies: `google-cloud-documentai`
 
+## Project Structure
+1. [Custom Processor](/custom%20processor/)
+    - [National ID Card Parser](/custom%20processor/ID%20Card%20Extractor.ipynb): Indonesia's ID Card (KTP) data extraction
+    - [Driving License Card](/custom%20processor//ID%20Driving%20License%20Extractor.ipynb): Indonesia's Driving License card (SIM) data extraction
+
+2. [General Processor](/general%20processor/)
+    - [Form Parser](/general%20processor/Form%20Parser.ipynb): Extract data from filled-out form
+    - [Handwriting OCR](/general%20processor/Handwriting%20OCR.ipynb): Extract data from handwritings
+
+3. [Specialized Processor](/specialized%20processor/)
+    - [Invoice Extractor](/specialized%20processor//Invoice%20Extractor.ipynb): Extract data from invoice
+    - [Purchase Order Extractor](/specialized%20processor/Purchase%20Order%20Extractor.ipynb): Extract data from purchase order
+
 ### Installation
 Follow the steps below to set up and run the code generation app:
 
@@ -67,6 +80,10 @@ PROJECT_ID = xxxxx
 REGION = xxxxx
 IDN_CARD_PROCESSOR_ID = xxxx
 IDN_DRIVING_LICENSE_PROCESSOR_ID = xxxx
+HANDWRITING_PROCESSOR_ID = xxxx
+FORM_PARSER_PROCESSOR_ID = xxxx
+INVOICE_PROCESSOR_ID = xxxx
+PO_PROCESSOR_ID = xxxx
 ```
 
 
